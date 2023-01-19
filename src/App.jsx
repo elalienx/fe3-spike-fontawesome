@@ -12,7 +12,7 @@ export default function App() {
       <FontAwesomeIcon icon={solid("square-check")} />
 
       <button>
-        <FontAwesomeIcon icon={solid("coffee")} /> Buy me a coffee
+        <FontAwesomeIcon icon={solid("solar-panel")} /> Buy me a coffee
       </button>
     </div>
   );
