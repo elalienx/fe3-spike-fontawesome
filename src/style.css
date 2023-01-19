@@ -1,0 +1,14 @@
+.App {
+  background-color: red;
+  color: white;
+}
+
+button {
+  color: yellow;
+  background-color: black;
+}
+
+button svg {
+  color: aquamarine;
+  font-size: 15px;
+}
