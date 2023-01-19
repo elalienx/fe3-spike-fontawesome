@@ -1,6 +1,6 @@
 // Node modules
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
+import { solid, brands } from "@fortawesome/fontawesome-svg-core/import.macro";
 
 // Project files
 import "./style.css";
@@ -9,10 +9,22 @@ export default function App() {
   return (
     <div className="App">
       <h1>Fontawesome Icons!</h1>
-      <FontAwesomeIcon icon={solid("square-check")} />
+      <h2>Follow me on social media</h2>
+      <ul>
+        <li>
+          <FontAwesomeIcon icon={brands("facebook")} beat /> Facebook
+        </li>
+        <li>
+          <FontAwesomeIcon icon={brands("twitter")} fade /> Twitter
+        </li>
+        <li>
+          <FontAwesomeIcon icon={brands("instagram")} bounce /> Instagram
+        </li>
+      </ul>
 
-      <button>
-        <FontAwesomeIcon icon={solid("solar-panel")} /> Buy me a coffee
+      <button className="fa">
+        <FontAwesomeIcon icon={solid("solar-panel")} size="xl" spin />
+        Buy me a coffee
       </button>
     </div>
   );
